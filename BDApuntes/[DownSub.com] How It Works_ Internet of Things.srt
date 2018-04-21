@@ -1,0 +1,416 @@
+1
+00:00:03,350 --> 00:00:05,850
+ <font color="#E5E5E5">Internet </font><font color="#CCCCCC">de las </font><font color="#E5E5E5">cosas está cambiando mucho </font>
+
+2
+00:00:05,850 --> 00:00:07,830
+ sobre el mundo en el <font color="#E5E5E5">que vivimos del </font><font color="#CCCCCC">camino </font>
+
+3
+00:00:07,830 --> 00:00:09,870
+ nos dirigimos a la forma en que hacemos compras y 
+
+4
+00:00:09,870 --> 00:00:12,710
+ incluso la forma en que <font color="#E5E5E5">obtenemos </font><font color="#CCCCCC">energía </font><font color="#E5E5E5">para </font><font color="#CCCCCC">nuestros hogares </font>
+
+5
+00:00:12,710 --> 00:00:14,730
+ sofisticados sensores y chips son 
+
+6
+00:00:14,730 --> 00:00:16,109
+ incrustado en las cosas físicas que 
+
+7
+00:00:16,109 --> 00:00:18,600
+ <font color="#CCCCCC">nos </font><font color="#E5E5E5">rodean cada uno transmitiendo valioso </font>
+
+8
+00:00:18,600 --> 00:00:20,970
+ datos de datos <font color="#CCCCCC">que </font><font color="#E5E5E5">nos </font><font color="#CCCCCC">permiten </font><font color="#E5E5E5">entender mejor </font>
+
+9
+00:00:20,970 --> 00:00:23,180
+ cómo funcionan estas cosas <font color="#E5E5E5">y trabajan juntas </font>
+
+10
+00:00:23,180 --> 00:00:25,470
+ pero ¿cómo exactamente <font color="#E5E5E5">todos estos dispositivos </font>
+
+11
+00:00:25,470 --> 00:00:27,689
+ <font color="#CCCCCC">compartir esas grandes </font><font color="#E5E5E5">cantidades de datos y </font>
+
+12
+00:00:27,689 --> 00:00:30,109
+ <font color="#CCCCCC">cómo ponemos esa información a trabajar </font>
+
+13
+00:00:30,109 --> 00:00:32,189
+ si estamos mejorando <font color="#E5E5E5">la producción </font>
+
+14
+00:00:32,189 --> 00:00:34,500
+ de una fábrica que ofrece a los <font color="#E5E5E5">residentes de la ciudad </font>
+
+15
+00:00:34,500 --> 00:00:36,410
+ actualizaciones en tiempo real sobre dónde aparcar <font color="#E5E5E5">o </font>
+
+16
+00:00:36,410 --> 00:00:39,270
+ <font color="#E5E5E5">monitoreando nuestra salud personal </font><font color="#CCCCCC">es el </font>
+
+17
+00:00:39,270 --> 00:00:41,160
+ <font color="#E5E5E5">plataforma común de Internet de las Cosas que </font>
+
+18
+00:00:41,160 --> 00:00:42,780
+ <font color="#CCCCCC">nos trae información diversa juntos </font>
+
+19
+00:00:42,780 --> 00:00:44,969
+ <font color="#E5E5E5">y proporciona el lenguaje común </font><font color="#CCCCCC">para el </font>
+
+20
+00:00:44,969 --> 00:00:46,710
+ dispositivos <font color="#CCCCCC">y aplicaciones </font><font color="#E5E5E5">para comunicarse con </font>
+
+21
+00:00:46,710 --> 00:00:48,960
+ <font color="#E5E5E5">entre sí el proceso comienza con el </font>
+
+22
+00:00:48,960 --> 00:00:50,760
+ <font color="#E5E5E5">dispositivos mismos que de forma segura </font>
+
+23
+00:00:50,760 --> 00:00:52,199
+ comunicarse <font color="#CCCCCC">con un Internet de las cosas </font>
+
+24
+00:00:52,199 --> 00:00:54,750
+ plataforma esta <font color="#CCCCCC">plataforma integra el </font>
+
+25
+00:00:54,750 --> 00:00:56,550
+ datos de muchos dispositivos <font color="#E5E5E5">y aplica </font>
+
+26
+00:00:56,550 --> 00:00:58,199
+ análisis <font color="#E5E5E5">para compartir los más valiosos </font>
+
+27
+00:00:58,199 --> 00:00:59,879
+ datos <font color="#E5E5E5">con aplicaciones que abordan </font>
+
+28
+00:00:59,879 --> 00:01:02,460
+ necesidades específicas de la industria <font color="#E5E5E5">comencemos con </font>
+
+29
+00:01:02,460 --> 00:01:05,250
+ un <font color="#E5E5E5">simple ejemplo de un automóvil después de </font><font color="#CCCCCC">tomar una </font>
+
+30
+00:01:05,250 --> 00:01:06,090
+ largo <font color="#E5E5E5">viaje por carretera </font>
+
+31
+00:01:06,090 --> 00:01:07,740
+ Rebecca se da cuenta de que su motor de verificación 
+
+32
+00:01:07,740 --> 00:01:09,479
+ se <font color="#CCCCCC">ha encendido la luz, ella sabe </font><font color="#E5E5E5">que ella </font>
+
+33
+00:01:09,479 --> 00:01:10,770
+ necesita <font color="#CCCCCC">que </font><font color="#E5E5E5">su automóvil sea visto por un </font>
+
+34
+00:01:10,770 --> 00:01:12,510
+ mecánico, <font color="#E5E5E5">pero no está </font><font color="#CCCCCC">seguro de si es </font>
+
+35
+00:01:12,510 --> 00:01:14,040
+ <font color="#E5E5E5">algo menor o algo que necesita </font>
+
+36
+00:01:14,040 --> 00:01:17,189
+ <font color="#CCCCCC">atención inmediata ya que resulta el </font>
+
+37
+00:01:17,189 --> 00:01:18,659
+ sensor <font color="#E5E5E5">que provocó el control de Rebecca </font>
+
+38
+00:01:18,659 --> 00:01:20,400
+ la luz del motor controla la <font color="#E5E5E5">presión en </font>
+
+39
+00:01:20,400 --> 00:01:22,409
+ <font color="#E5E5E5">su línea de freno este sensor es uno de </font>
+
+40
+00:01:22,409 --> 00:01:24,060
+ muchos procesos de monitoreo en <font color="#E5E5E5">todo el </font>
+
+41
+00:01:24,060 --> 00:01:25,920
+ coche que se <font color="#E5E5E5">comunican constantemente </font>
+
+42
+00:01:25,920 --> 00:01:28,470
+ entre <font color="#E5E5E5">sí </font><font color="#CCCCCC">un componente en </font><font color="#E5E5E5">el coche </font>
+
+43
+00:01:28,470 --> 00:01:30,509
+ llamado el bus de diagnóstico reúne el 
+
+44
+00:01:30,509 --> 00:01:32,610
+ <font color="#CCCCCC">datos de todos estos sensores luego pasa </font>
+
+45
+00:01:32,610 --> 00:01:34,799
+ a <font color="#E5E5E5">una puerta de entrada en el </font><font color="#CCCCCC">coche de </font><font color="#E5E5E5">la </font><font color="#CCCCCC">puerta de enlace </font>
+
+46
+00:01:34,799 --> 00:01:36,420
+ integra y ordena los datos de la 
+
+47
+00:01:36,420 --> 00:01:38,579
+ <font color="#CCCCCC">sensores de </font><font color="#E5E5E5">esta manera </font><font color="#CCCCCC">solo los más relevantes </font>
+
+48
+00:01:38,579 --> 00:01:40,350
+ la <font color="#CCCCCC">información de diagnóstico será </font>
+
+49
+00:01:40,350 --> 00:01:41,759
+ transmitido a los fabricantes 
+
+50
+00:01:41,759 --> 00:01:44,430
+ plataforma pero antes de enviar esto 
+
+51
+00:01:44,430 --> 00:01:46,439
+ datos organizados de <font color="#E5E5E5">la entrada del </font><font color="#CCCCCC">coche </font><font color="#E5E5E5">y </font>
+
+52
+00:01:46,439 --> 00:01:48,270
+ plataforma debe primero registrarse <font color="#E5E5E5">con cada </font>
+
+53
+00:01:48,270 --> 00:01:51,170
+ otro <font color="#CCCCCC">y confirmar una comunicación segura </font>
+
+54
+00:01:51,170 --> 00:01:53,570
+ la plataforma está constantemente reuniendo <font color="#CCCCCC">y </font>
+
+55
+00:01:53,570 --> 00:01:54,890
+ almacenando miles de bits <font color="#E5E5E5">de información </font>
+
+56
+00:01:54,890 --> 00:01:57,110
+ <font color="#CCCCCC">del coche de Rebecca y cientos </font><font color="#E5E5E5">de </font>
+
+57
+00:01:57,110 --> 00:01:58,940
+ miles de autos <font color="#E5E5E5">como el suyo construyendo un </font>
+
+58
+00:01:58,940 --> 00:02:00,920
+ <font color="#CCCCCC">registro </font><font color="#E5E5E5">histórico en una </font><font color="#CCCCCC">base de datos </font><font color="#E5E5E5">segura </font>
+
+59
+00:02:00,920 --> 00:02:03,530
+ <font color="#E5E5E5">los fabricantes agregaron reglas y lógica </font>
+
+60
+00:02:03,530 --> 00:02:05,840
+ <font color="#CCCCCC">a la plataforma así que cuando el coche de Rebecca </font>
+
+61
+00:02:05,840 --> 00:02:07,340
+ envía una señal de <font color="#E5E5E5">que su líquido de frenos tiene </font>
+
+62
+00:02:07,340 --> 00:02:09,050
+ cayó por debajo de un nivel recomendado del 
+
+63
+00:02:09,050 --> 00:02:10,699
+ plataforma desencadena una alerta en su coche 
+
+64
+00:02:10,699 --> 00:02:13,430
+ el fabricante <font color="#CCCCCC">también usa la plataforma </font>
+
+65
+00:02:13,430 --> 00:02:15,350
+ para crear <font color="#E5E5E5">y administrar </font><font color="#CCCCCC">aplicaciones que </font>
+
+66
+00:02:15,350 --> 00:02:17,959
+ resolver <font color="#E5E5E5">problemas específicos en este caso el </font>
+
+67
+00:02:17,959 --> 00:02:19,370
+ el fabricante puede implementar una aplicación 
+
+68
+00:02:19,370 --> 00:02:21,200
+ <font color="#CCCCCC">en la plataforma llamada el activo </font>
+
+69
+00:02:21,200 --> 00:02:23,209
+ sistema de gestión de <font color="#E5E5E5">esta aplicación </font>
+
+70
+00:02:23,209 --> 00:02:24,890
+ supervisa todos <font color="#E5E5E5">los automóviles de sus clientes en </font>
+
+71
+00:02:24,890 --> 00:02:26,780
+ el camino, así <font color="#CCCCCC">como todas las partes en </font>
+
+72
+00:02:26,780 --> 00:02:29,209
+ sus almacenes <font color="#E5E5E5">utiliza los datos de </font>
+
+73
+00:02:29,209 --> 00:02:31,100
+ El coche de Rebecca para ofrecerle un potencial 
+
+74
+00:02:31,100 --> 00:02:32,630
+ hora de cita para dar servicio a <font color="#E5E5E5">su auto </font>
+
+75
+00:02:32,630 --> 00:02:34,430
+ <font color="#E5E5E5">indicaciones para el certificado más cercano </font>
+
+76
+00:02:34,430 --> 00:02:36,350
+ distribuidor <font color="#E5E5E5">y un cupón para el servicio </font>
+
+77
+00:02:36,350 --> 00:02:38,840
+ Además, la aplicación <font color="#E5E5E5">garantizará que </font>
+
+78
+00:02:38,840 --> 00:02:40,310
+ Los <font color="#CCCCCC">frenos de Rebecca están cubiertos por ella </font>
+
+79
+00:02:40,310 --> 00:02:41,750
+ garantía de <font color="#E5E5E5">que el reemplazo correcto </font>
+
+80
+00:02:41,750 --> 00:02:43,790
+ <font color="#E5E5E5">parte se ordena y luego se envía a la </font>
+
+81
+00:02:43,790 --> 00:02:45,170
+ <font color="#CCCCCC">concesionario por lo que está listo </font><font color="#E5E5E5">cuando </font><font color="#CCCCCC">ella </font>
+
+82
+00:02:45,170 --> 00:02:47,600
+ llega <font color="#E5E5E5">pero el </font><font color="#CCCCCC">análisis de </font><font color="#E5E5E5">los </font><font color="#CCCCCC">fabricantes </font>
+
+83
+00:02:47,600 --> 00:02:49,280
+ no se <font color="#E5E5E5">detiene allí también tienen </font>
+
+84
+00:02:49,280 --> 00:02:50,989
+ desplegó <font color="#CCCCCC">una ingeniería continua </font>
+
+85
+00:02:50,989 --> 00:02:52,370
+ aplicación que rastrea no solo 
+
+86
+00:02:52,370 --> 00:02:54,320
+ El coche de Rebecca, pero cientos de miles 
+
+87
+00:02:54,320 --> 00:02:55,910
+ <font color="#E5E5E5">de otros buscando formas de mejorar </font>
+
+88
+00:02:55,910 --> 00:02:58,070
+ <font color="#E5E5E5">el diseño y el proceso de fabricación de </font>
+
+89
+00:02:58,070 --> 00:03:00,320
+ <font color="#E5E5E5">el auto </font><font color="#CCCCCC">si el mismo </font><font color="#E5E5E5">problema en </font>
+
+90
+00:03:00,320 --> 00:03:01,880
+ <font color="#CCCCCC">su línea de freno aparece en </font><font color="#E5E5E5">una crítica </font>
+
+91
+00:03:01,880 --> 00:03:03,769
+ <font color="#E5E5E5">cantidad de otros vehículos que el fabricante </font>
+
+92
+00:03:03,769 --> 00:03:05,690
+ utiliza aplicaciones personalizadas <font color="#CCCCCC">para el </font>
+
+93
+00:03:05,690 --> 00:03:07,640
+ <font color="#E5E5E5">industria del automóvil </font><font color="#CCCCCC">para identificar el </font>
+
+94
+00:03:07,640 --> 00:03:10,040
+ problema exacto <font color="#E5E5E5">que pueden ver si estos coches </font>
+
+95
+00:03:10,040 --> 00:03:12,079
+ se <font color="#E5E5E5">hicieron en </font><font color="#CCCCCC">la </font><font color="#E5E5E5">misma fábrica utilizada el </font>
+
+96
+00:03:12,079 --> 00:03:14,030
+ mismas partes o salieron de la <font color="#E5E5E5">cadena de montaje </font>
+
+97
+00:03:14,030 --> 00:03:16,400
+ <font color="#E5E5E5">en el mismo día, </font><font color="#CCCCCC">¿qué hacen </font><font color="#E5E5E5">todos estos </font>
+
+98
+00:03:16,400 --> 00:03:18,950
+ las piezas se <font color="#E5E5E5">suman al inventario optimizado </font>
+
+99
+00:03:18,950 --> 00:03:21,230
+ gestión para el distribuidor <font color="#CCCCCC">un mejor seguro </font>
+
+100
+00:03:21,230 --> 00:03:23,239
+ coche del fabricante y para 
+
+101
+00:03:23,239 --> 00:03:25,340
+ Rebecca <font color="#CCCCCC">significa que puede estar de vuelta en el </font>
+
+102
+00:03:25,340 --> 00:03:27,380
+ camino más rápido y llegar a <font color="#E5E5E5">donde ella va </font>
+
+103
+00:03:27,380 --> 00:03:29,690
+ con seguridad <font color="#CCCCCC">todo gracias a Internet de </font>
+
+104
+00:03:29,690 --> 00:00:00,000
+ Cosas 
+

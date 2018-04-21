@@ -1,0 +1,312 @@
+1
+00:00:00,000 --> 00:00:00,350
+ [Música] 
+
+2
+00:00:00,350 --> 00:00:03,060
+ IBM Informix <font color="#CCCCCC">es uno de los más </font>
+
+3
+00:00:03,060 --> 00:00:05,220
+ <font color="#E5E5E5">base de datos de clase empresarial ampliamente utilizada </font>
+
+4
+00:00:05,220 --> 00:00:07,319
+ servidores desplegados por algunos de los del mundo 
+
+5
+00:00:07,319 --> 00:00:09,719
+ <font color="#CCCCCC">las corporaciones más grandes que aprecian su </font>
+
+6
+00:00:09,719 --> 00:00:12,230
+ <font color="#E5E5E5">rendimiento de fiabilidad y facilidad de uso </font>
+
+7
+00:00:12,230 --> 00:00:14,940
+ <font color="#CCCCCC">informix </font><font color="#E5E5E5">es tan rápido y confiable </font>
+
+8
+00:00:14,940 --> 00:00:16,980
+ versátil <font color="#E5E5E5">que es la empresa ideal </font>
+
+9
+00:00:16,980 --> 00:00:19,560
+ base de datos de clase para la capacidad de inserción y la 
+
+10
+00:00:19,560 --> 00:00:21,960
+ <font color="#E5E5E5">Fabricantes de Internet of Things </font>
+
+11
+00:00:21,960 --> 00:00:24,269
+ minoristas y proveedores de servicios de cada 
+
+12
+00:00:24,269 --> 00:00:26,039
+ variedad depende de <font color="#CCCCCC">Informix para su </font>
+
+13
+00:00:26,039 --> 00:00:29,279
+ participación <font color="#CCCCCC">en el crecimiento de IOT y ahora </font>
+
+14
+00:00:29,279 --> 00:00:31,260
+ <font color="#CCCCCC">Informix está disponible </font><font color="#E5E5E5">en el </font>
+
+15
+00:00:31,260 --> 00:00:33,480
+ nube <font color="#E5E5E5">donde negocios de cualquier tamaño pueden </font>
+
+16
+00:00:33,480 --> 00:00:35,070
+ <font color="#CCCCCC">aprovechar su </font><font color="#E5E5E5">increíble </font><font color="#CCCCCC">poder para </font><font color="#E5E5E5">ayudar </font>
+
+17
+00:00:35,070 --> 00:00:37,440
+ <font color="#E5E5E5">ellos </font><font color="#CCCCCC">logran sus </font><font color="#E5E5E5">objetivos, </font><font color="#CCCCCC">si </font>
+
+18
+00:00:37,440 --> 00:00:39,270
+ eres una <font color="#E5E5E5">gran corporación o una </font><font color="#CCCCCC">start-up </font>
+
+19
+00:00:39,270 --> 00:00:41,219
+ <font color="#CCCCCC">puede tener la </font><font color="#E5E5E5">base de datos empresarial que </font>
+
+20
+00:00:41,219 --> 00:00:42,600
+ necesitará conectarse a <font color="#CCCCCC">Internet</font><font color="#E5E5E5"> de </font>
+
+21
+00:00:42,600 --> 00:00:43,980
+ <font color="#E5E5E5">Cosas sin el alto costo </font><font color="#CCCCCC">de </font>
+
+22
+00:00:43,980 --> 00:00:46,950
+ Implementación de <font color="#CCCCCC">Informix en la nube </font>
+
+23
+00:00:46,950 --> 00:00:48,570
+ el <font color="#E5E5E5">conjunto completo de características </font><font color="#CCCCCC">de los </font><font color="#E5E5E5">formics </font>
+
+24
+00:00:48,570 --> 00:00:50,489
+ ahorro de implementaciones en las instalaciones 
+
+25
+00:00:50,489 --> 00:00:52,649
+ organizaciones los costos de las cargas de trabajo en 
+
+26
+00:00:52,649 --> 00:00:53,789
+ <font color="#E5E5E5">un entorno </font><font color="#CCCCCC">híbrido </font><font color="#E5E5E5">sin </font>
+
+27
+00:00:53,789 --> 00:00:55,760
+ comprometiendo la <font color="#E5E5E5">seguridad y el rendimiento </font>
+
+28
+00:00:55,760 --> 00:00:58,410
+ <font color="#CCCCCC">el </font><font color="#E5E5E5">motor </font><font color="#CCCCCC">informix </font><font color="#E5E5E5">acelera y </font>
+
+29
+00:00:58,410 --> 00:01:00,000
+ simplifica sus <font color="#E5E5E5">implementaciones en la nube </font>
+
+30
+00:01:00,000 --> 00:01:02,430
+ integrando <font color="#E5E5E5">series de tiempo espaciales no </font>
+
+31
+00:01:02,430 --> 00:01:05,610
+ secuela y SQL juntos <font color="#E5E5E5">te ayudará </font>
+
+32
+00:01:05,610 --> 00:01:07,500
+ lograr una <font color="#CCCCCC">seguridad empresarial confiable </font>
+
+33
+00:01:07,500 --> 00:01:09,000
+ a través del cifrado nativo con todo 
+
+34
+00:01:09,000 --> 00:01:11,369
+ <font color="#E5E5E5">configuraciones si sus datos están en </font>
+
+35
+00:01:11,369 --> 00:01:13,439
+ descansar <font color="#E5E5E5">o en vuelo </font><font color="#CCCCCC">estás en </font><font color="#E5E5E5">completo </font>
+
+36
+00:01:13,439 --> 00:01:13,920
+ <font color="#CCCCCC">controlar </font>
+
+37
+00:01:13,920 --> 00:01:16,439
+ <font color="#CCCCCC">fácil replicación </font><font color="#E5E5E5">de su serie de tiempo y </font>
+
+38
+00:01:16,439 --> 00:01:18,270
+ <font color="#E5E5E5">otros datos desde el borde en el IBM </font>
+
+39
+00:01:18,270 --> 00:01:19,890
+ La nube de Informix te permitirá 
+
+40
+00:01:19,890 --> 00:01:21,390
+ <font color="#CCCCCC">realizar análisis más profundos incluyendo </font>
+
+41
+00:01:21,390 --> 00:01:23,820
+ análisis predictivo para que usted y su 
+
+42
+00:01:23,820 --> 00:01:25,409
+ los clientes <font color="#CCCCCC">pueden beneficiarse de </font><font color="#E5E5E5">los muchos </font>
+
+43
+00:01:25,409 --> 00:01:27,390
+ ventajas que Internet posibilita 
+
+44
+00:01:27,390 --> 00:01:29,700
+ de las cosas <font color="#E5E5E5">sin incurrir en enormes </font>
+
+45
+00:01:29,700 --> 00:01:32,159
+ costos de puesta en marcha <font color="#CCCCCC">Informix en la nube hace </font>
+
+46
+00:01:32,159 --> 00:01:33,659
+ su <font color="#E5E5E5">costo total de propiedad </font><font color="#CCCCCC">más </font>
+
+47
+00:01:33,659 --> 00:01:34,320
+ asequible 
+
+48
+00:01:34,320 --> 00:01:37,290
+ lo mejor de todo <font color="#CCCCCC">informix </font><font color="#E5E5E5">ya está disponible en </font>
+
+49
+00:01:37,290 --> 00:01:40,170
+ plataforma en la nube de Bluemix de ibm como alojado 
+
+50
+00:01:40,170 --> 00:01:41,610
+ <font color="#CCCCCC">servicio que incluye un Informix </font>
+
+51
+00:01:41,610 --> 00:01:44,490
+ licencia y <font color="#CCCCCC">hardware SoftLayer Informix </font>
+
+52
+00:01:44,490 --> 00:01:46,770
+ las instancias se alojan en IBM <font color="#CCCCCC">SoftLayer </font>
+
+53
+00:01:46,770 --> 00:01:48,540
+ centros de datos con despliegue mundial 
+
+54
+00:01:48,540 --> 00:01:50,820
+ opciones y en tamaños de camisetas que 
+
+55
+00:01:50,820 --> 00:01:52,920
+ proporcionar un valor óptimo para que obtenga el 
+
+56
+00:01:52,920 --> 00:01:54,659
+ licencias y capacidades de hardware que <font color="#E5E5E5">necesita </font>
+
+57
+00:01:54,659 --> 00:01:57,479
+ a un <font color="#CCCCCC">precio que puede pagar </font><font color="#E5E5E5">en todos los casos </font>
+
+58
+00:01:57,479 --> 00:02:00,060
+ Las disposiciones de IBM configuran y prueban el 
+
+59
+00:02:00,060 --> 00:02:01,860
+ instancia <font color="#E5E5E5">y luego pasa las credenciales </font>
+
+60
+00:02:01,860 --> 00:02:04,500
+ para usted, <font color="#E5E5E5">sea ​​cual sea su carga de trabajo </font>
+
+61
+00:02:04,500 --> 00:02:06,240
+ puede ser compatible con <font color="#CCCCCC">Informix completo </font>
+
+62
+00:02:06,240 --> 00:02:09,560
+ funcionalidad <font color="#E5E5E5">OLTP híbrida sin secuencia SQL </font>
+
+63
+00:02:09,560 --> 00:02:12,280
+ <font color="#CCCCCC">serie de tiempo espacial IOT </font>
+
+64
+00:02:12,280 --> 00:02:15,700
+ y aceleración de consultas a <font color="#E5E5E5">través de </font><font color="#CCCCCC">IWA Informix </font>
+
+65
+00:02:15,700 --> 00:02:18,160
+ acelerador de almacén <font color="#E5E5E5">también obtendrá </font>
+
+66
+00:02:18,160 --> 00:02:19,810
+ desarrollo rápido de aplicaciones y 
+
+67
+00:02:19,810 --> 00:02:23,260
+ soporte <font color="#E5E5E5">para resto </font><font color="#CCCCCC">mqtt SQL o MongoDB </font>
+
+68
+00:02:23,260 --> 00:02:26,170
+ interfaces <font color="#E5E5E5">en todo </font><font color="#CCCCCC">Informix </font><font color="#E5E5E5">en la nube </font>
+
+69
+00:02:26,170 --> 00:02:27,940
+ proporciona infraestructura <font color="#E5E5E5">como servicio </font>
+
+70
+00:02:27,940 --> 00:02:29,830
+ economía <font color="#E5E5E5">mientras se preserva el control </font>
+
+71
+00:02:29,830 --> 00:02:32,400
+ <font color="#CCCCCC">seguridad y disponibilidad de rendimiento </font>
+
+72
+00:02:32,400 --> 00:02:34,569
+ si <font color="#E5E5E5">su </font><font color="#CCCCCC">organización es una </font>
+
+73
+00:02:34,569 --> 00:02:36,760
+ <font color="#E5E5E5">corporación multinacional </font><font color="#CCCCCC">o un pequeño </font>
+
+74
+00:02:36,760 --> 00:02:38,410
+ empresa con aspiraciones <font color="#E5E5E5">de crecimiento </font>
+
+75
+00:02:38,410 --> 00:02:41,350
+ <font color="#E5E5E5">IBM informix está disponible en la nube de IBM </font>
+
+76
+00:02:41,350 --> 00:02:43,060
+ para ayudarlo a tener éxito <font color="#CCCCCC">en Internet de </font>
+
+77
+00:02:43,060 --> 00:02:46,870
+ Cosas <font color="#E5E5E5">IBM informix en la nube un poderoso </font>
+
+78
+00:02:46,870 --> 00:00:00,000
+ Socio de IOT <font color="#E5E5E5">para un poderoso </font><font color="#CCCCCC">resultado </font><font color="#E5E5E5">comercial </font>
+

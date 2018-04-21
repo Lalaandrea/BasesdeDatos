@@ -1,0 +1,188 @@
+1
+00:00:00,030 --> 00:00:02,760
+ mejorar la producción agrícola con IOT 
+
+2
+00:00:02,760 --> 00:00:06,150
+ <font color="#E5E5E5">analítica abundante producción útil </font>
+
+3
+00:00:06,150 --> 00:00:08,910
+ comida mejor <font color="#E5E5E5">gestión de recursos más grande </font>
+
+4
+00:00:08,910 --> 00:00:12,929
+ ganancias <font color="#E5E5E5">un mundo mejor </font><font color="#CCCCCC">80% </font><font color="#E5E5E5">de la </font>
+
+5
+00:00:12,929 --> 00:00:16,139
+ <font color="#E5E5E5">el suministro mundial de alimentos </font><font color="#CCCCCC">es grano </font><font color="#E5E5E5">30% de todos </font>
+
+6
+00:00:16,139 --> 00:00:18,680
+ el grano producido <font color="#E5E5E5">se arruina por el deterioro </font>
+
+7
+00:00:18,680 --> 00:00:21,330
+ el deterioro desperdicia recursos ambientales 
+
+8
+00:00:21,330 --> 00:00:24,150
+ <font color="#E5E5E5">causa la enfermedad aumenta </font><font color="#CCCCCC">los costos de atención médica </font>
+
+9
+00:00:24,150 --> 00:00:26,910
+ aumenta la responsabilidad <font color="#E5E5E5">y reduce la granja </font>
+
+10
+00:00:26,910 --> 00:00:29,310
+ <font color="#E5E5E5">rentabilidad la Internet de las cosas </font>
+
+11
+00:00:29,310 --> 00:00:31,439
+ <font color="#CCCCCC">ayuda a reducir el deterioro para mejorar la </font>
+
+12
+00:00:31,439 --> 00:00:34,489
+ suministro de alimentos del mundo <font color="#E5E5E5">utilizando IBM Informix </font>
+
+13
+00:00:34,489 --> 00:00:37,829
+ <font color="#CCCCCC">IBM informix captura análisis de datos </font>
+
+14
+00:00:37,829 --> 00:00:39,930
+ resultados y automatiza los procesos para 
+
+15
+00:00:39,930 --> 00:00:42,170
+ <font color="#CCCCCC">garantizar la producción de grano de alta calidad </font>
+
+16
+00:00:42,170 --> 00:00:44,610
+ tradicionalmente el grano se almacena en <font color="#E5E5E5">grandes </font>
+
+17
+00:00:44,610 --> 00:00:46,980
+ <font color="#E5E5E5">recipientes de almacenamiento de metal calor y humedad </font>
+
+18
+00:00:46,980 --> 00:00:48,989
+ producir <font color="#E5E5E5">condiciones adversas para el grano a </font>
+
+19
+00:00:48,989 --> 00:00:51,840
+ ser destruido por el manual de moho e insectos 
+
+20
+00:00:51,840 --> 00:00:53,760
+ monitoreo y ventiladores se utilizan para prevenir 
+
+21
+00:00:53,760 --> 00:00:55,980
+ deterioro <font color="#E5E5E5">del proceso puede </font><font color="#CCCCCC">ser </font>
+
+22
+00:00:55,980 --> 00:00:59,850
+ tiempo <font color="#CCCCCC">ineficaz y peligrosa IBM </font>
+
+23
+00:00:59,850 --> 00:01:02,609
+ informix en IOT <font color="#E5E5E5">utiliza sensores en tiempo real </font>
+
+24
+00:01:02,609 --> 00:01:04,339
+ para monitorear el <font color="#E5E5E5">clima en condiciones de almacenamiento </font>
+
+25
+00:01:04,339 --> 00:01:07,110
+ <font color="#E5E5E5">los datos se analizan la información </font><font color="#CCCCCC">es </font>
+
+26
+00:01:07,110 --> 00:01:10,250
+ entregado <font color="#CCCCCC">y los sistemas están comprometidos 24/7 </font>
+
+27
+00:01:10,250 --> 00:01:13,350
+ <font color="#E5E5E5">trabajando juntos IBM informix en IOT </font>
+
+28
+00:01:13,350 --> 00:01:15,570
+ <font color="#CCCCCC">ayudó a mantener las </font><font color="#E5E5E5">condiciones </font><font color="#CCCCCC">ideales </font><font color="#E5E5E5">para </font>
+
+29
+00:01:15,570 --> 00:01:18,450
+ maximizar la <font color="#CCCCCC">producción de granos de acuerdo a </font>
+
+30
+00:01:18,450 --> 00:01:20,759
+ <font color="#E5E5E5">Danielle Callas Todd, fundadora de target </font>
+
+31
+00:01:20,759 --> 00:01:23,159
+ manejo de granos usando Internet de 
+
+32
+00:01:23,159 --> 00:01:24,869
+ Las tecnologías de las cosas para <font color="#E5E5E5">controlar el clima </font>
+
+33
+00:01:24,869 --> 00:01:26,670
+ y condiciones de almacenamiento <font color="#E5E5E5">en tiempo real en </font>
+
+34
+00:01:26,670 --> 00:01:28,439
+ cada sitio bin y aprovechamiento 
+
+35
+00:01:28,439 --> 00:01:30,659
+ sofisticados modelos y algoritmos que 
+
+36
+00:01:30,659 --> 00:01:32,310
+ puede <font color="#E5E5E5">predecir problemas y de manera proactiva </font>
+
+37
+00:01:32,310 --> 00:01:33,750
+ ajustar en tiempo real para mantener 
+
+38
+00:01:33,750 --> 00:01:35,970
+ condiciones consistentemente perfectas en <font color="#CCCCCC">cada </font>
+
+39
+00:01:35,970 --> 00:01:41,390
+ bin <font color="#E5E5E5">IBM informix en IOT estropear la </font><font color="#CCCCCC">cintura </font>
+
+40
+00:01:41,390 --> 00:01:45,320
+ <font color="#CCCCCC">gastos de salud de la enfermedad eliminados </font>
+
+41
+00:01:45,320 --> 00:01:48,119
+ mejorar la <font color="#CCCCCC">calidad aumentar la producción </font>
+
+42
+00:01:48,119 --> 00:01:51,420
+ <font color="#E5E5E5">impulsar ganancias abundante grano saludable </font>
+
+43
+00:01:51,420 --> 00:01:53,670
+ para ayudar a <font color="#E5E5E5">alimentar al mundo trabajando juntos </font>
+
+44
+00:01:53,670 --> 00:01:55,670
+ para hacer <font color="#E5E5E5">del mundo un lugar más saludable </font>
+
+45
+00:01:55,670 --> 00:01:57,810
+ <font color="#CCCCCC">aprende </font><font color="#E5E5E5">cómo puedes </font><font color="#CCCCCC">ayudar a tu negocio </font>
+
+46
+00:01:57,810 --> 00:02:01,259
+ <font color="#E5E5E5">crecer para obtener más información, visite IBM comm </font>
+
+47
+00:02:01,259 --> 00:00:00,000
+ <font color="#CCCCCC">/ Informix </font>
+
