@@ -504,8 +504,83 @@
 	\label{sec:Index}
 
 	\clearpage
-    \chapter{1}
+
+
+
+    \chapter{Teoría}
+    \section{Definiciones}
+
+	    \subsection{Dato}
+	    	Representación gráfica con significado asignado.
+	    \subsection{Información}
+	    	Conjunto de datos ordenado.
+	    \subsection{Sistema}
+	    	Conjunto de elementos que se asocian para lograr un objetivo dentro de un entorno de cierto alcance.
+	    \subsection{Software}
+	    	Conjunto de programas con objetivo y estructura.
+	    \subsection{Base de datos}
+	    	\begin{itemize}
+	    		\item Representa aspectos del mundo real, a esto se le llama Mini Universo.
+	    		\item Datos almacenados que tienen un significado interesante.
+	    		\item Diseñar, manipular y construir.
+	    	\end{itemize}
+
+	    	
+
     \section{SGGD}
+    Es un programa para crear o manipular bases de datos. Algunos ejemplos son: MySQL, MariaDB, Server,Oracle,Informix, DB2,Sybasem MiniSQL,SQLite,Postgress, etc.
+
+    
+    \subsection{Motor Evaluador de consultas}
+	    \subsubsection{El compilador}
+	    \begin{itemize}
+	    	\item Lexico
+	    	\item Sintáctico
+	    	\item Semántico (Congruencia)
+	    \end{itemize}
+	    \subsubsection{Optimizador de consultas}
+	    \begin{itemize}
+	    	\item Basada en costos:
+	    			\begin{itemize}
+	    				\item Para número de reuniones pequeños es aceptable, para números grandes es dificil de manipular.
+	    				\item Se pueden manipular en subconjuntos y calcular individualmente el mejor orden de reunión eliminando los más costosos de cada subconjunto.
+
+	    				Usando esta técnica se puede implementar el algoritmo de programación  dinámica para la optimización del orden de reunión óptimo.
+	    				\item Una desventaja es el costo de la misma optimización. El número de los planes de evaluación distintos para una consulta puede ser grande y encontrar el plan optimo lleva mucho trabajo de cómputo.
+	    			\end{itemize}
+	    	\item Heurística:
+	    	\begin{itemize}
+	    		\item Suele a ayudar a reducir costo.
+	    		\item "Realizar las operaciones de selección tan pronto como sea posible"
+	    		\item Se dice que la regla anterior es heurística porque ayuda a reducir el costo, aunque no lo haga siempre.
+	    		\item "Realizar las proyecciones tan pronto como sea posible"
+
+	    	\end{itemize}
+	    \end{itemize}
+    \subsection{Gestión de almacenamiento}
+    Depende del sistema operativo.
+    \begin{itemize}
+    	\item Archivos y métodos de acceso (Búsqueda)
+    	\item Administrador de página (Gestiona Caché y RAM)
+    	\item Administrador de espacio en disco (RW)
+    \end{itemize}
+    \subsection{Módulo de control de concurrencia ACID}
+    \begin{itemize}
+    	\item $A$ tomicidad: Se ejecuta todo o nada.
+    	\item $C$ onsistencia: Es el estado coherente de la información o datos que contiene y que se relacionan, en el cual la información cumple las necesidades o expectativas de quien la requiera.
+    	\item $I$ Aislamiento: Ejecutar transacciones independientes.
+    	\item $D$ urabilidad: Reflejar cambios de la transacción realizada.
+    \end{itemize}
+    Administrador de transacciones(estrategia de ejecuación)
+
+    Administrador de bloqueos (Granularidad)
+
+    Bitácora.
+
+
+
+
+
 
     \subsection{Arquitectura de un SGBD}
 
@@ -557,12 +632,6 @@
 
 		%%Imagen
 
-		\subsubsection{Sublenguajes}
-		\begin{itemize}
-			\item Lenguaje de Definición de Datos DDL
-			\item Lenguaje de Manipulación de Datos DML
-			\item Lenguaje de Control de Transacciones
-		\end{itemize}
 
 	\subsection{Personas involucradas en un SBD}
 
@@ -577,7 +646,17 @@
 			\item Usuarios Avanzados
 		\end{itemize}
 \chapter{SQL}
+	\section{Introducción}
+	Es un sublenuaje formado por:
+	\begin{itemize}
+		\item DDL Lenguaje de definición de datos.
+		\item DML Lenguaje de manejo de datos
+		\item CTL Lenguaje de control de transacciones.
+		\item SDL Lenguaje de definición de almacenamiento.
+		\item VDL Lenguaje de definición de vistas.
+	\end{itemize}
 	\section{Algunas sentencias}
+
 	\emph{Show Databases;} Muestra las bases que tenemos.
 
 
