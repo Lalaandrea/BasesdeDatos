@@ -564,6 +564,7 @@
     	\item Administrador de página (Gestiona Caché y RAM)
     	\item Administrador de espacio en disco (RW)
     \end{itemize}
+
     \subsection{Módulo de control de concurrencia ACID}
     \begin{itemize}
     	\item $A$ tomicidad: Se ejecuta todo o nada.
@@ -571,9 +572,77 @@
     	\item $I$ Aislamiento: Ejecutar transacciones independientes.
     	\item $D$ urabilidad: Reflejar cambios de la transacción realizada.
     \end{itemize}
+    \subsubsection{Administrador de almacenamiento}
+    Garantiza que las transacciones soliciten y liberen los bloqueos de acuerdo con el
+	correspondiente protocolo de bloqueo y programa la ejecución de las
+	transacciones.
+	\subsubsection{Administrador de bloqueos}
+	Realiza un seguimiento de las solicitudes de bloqueo y concede los bloqueos
+	sobre los objetos de la base de datos cuando quedan disponibles.
+
 
     \subsection{Administración de tolerancia a fallos}
-    
+    Responsable del mantenimiento de un registro y de la restauración del sistema a un estado consistente tras los fallos.
+
+
+			\begin{figure}[H]
+			    \centering
+			    \includegraphics[scale=.7]{SGBD.png}
+			\end{figure}
+		
+\section{Clasificación de los SGBD}
+	\subsection{Modelo de datos}
+	Modelo: Es una respresentación de la realidad que contiene características generales de algo que se va a realizar.
+
+	Modelo de Datos: Conjunto de conceptos que pueden servir para describir la estructura de la Base de Datos. La estructura esta formada por: Datos, Tipo de datos, Vinculos, Restricciones, y puede incluir un conjunto de operaciones para especificar lecturas y actualizaciones.
+
+	Por ejemplo: Jerarquico, Relacional, Red, Orientado a Objetos, Entidad-Relación.
+	\subsection{Número de Usuarios}
+	\begin{itemize}
+		\item Monousuario
+		\item Multiusuario
+	\end{itemize}
+	\subsection{Proposito}
+	\begin{itemize}
+		\item Específico
+		\item General
+	\end{itemize}
+	\subsection{Costos}
+	\begin{itemize}
+		\item Gratis
+		\item Licencia
+	\end{itemize}
+	\subsection{Número de sitios}
+	\begin{itemize}
+		\item Centralizado
+		\item Distribuido: En varios servidores para evitar fallos.
+		\begin{itemize}
+			\item Homogeneo: Los servicios son del mismo control
+			\item Heterogeneo: Interfaces de comunicación
+		\end{itemize}
+	\end{itemize}
+\section{Clasificación de Modelo de Datos}
+\begin{itemize}
+	\item Alto nivel/Conceptual Tiene conceptos muy cercano al modo en que el usuario percibe los datos.
+	\item Representación/Implementación Sus conceptos pueden ser entendidos  por los usuarios finales aunque no estan alejados de la forma en que estan organizados en la Base de Datos.
+	\item Bajo nivel/Fisico Describe los detalles de como se almacenan los datos.
+\end{itemize}
+
+\section{Elementos de un Modelo de Datos}
+\begin{itemize}
+	\item Entidad: Representa un objeto del mundo Real
+	\item Atributo: Característica que permite descubrir una entidad.
+	\item Vinculo: Describe una interacción entre dos entidades.
+	\item Esquema de la Base de Datos: Descripción de la estructura de la Base de Datos.
+	\item Diagrama del esquema de la Base de Datos: Representación gráfica del esquema de la base de datos.
+	\item Estado de la Base de Datos: Datos en determinado tiempo.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
     Administrador de transacciones(estrategia de ejecuación)
 
     Administrador de bloqueos (Granularidad)

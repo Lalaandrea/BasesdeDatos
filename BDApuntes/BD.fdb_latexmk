@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex BD"] 1524759188 "BD.aux" "BD.bbl" "BD" 1524759191
+["bibtex BD"] 1524787898 "BD.aux" "BD.bbl" "BD" 1524787901
   "../referencias.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "BD.aux" 1524759190 4281 a479973d278dcafb01e4f60cbd75637c ""
+  "BD.aux" 1524787900 5460 2a7b65d220e63285242737475a3fa332 ""
   "BD.bcf" 0 -1 0 ""
   (generated)
-  "BD.bbl"
   "BD.blg"
-["pdflatex"] 1524759188 "BD.tex" "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.pdf" "BD" 1524759191
+  "BD.bbl"
+["pdflatex"] 1524787898 "BD.tex" "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.pdf" "BD" 1524787901
   "/etc/texmf/web2c/texmf.cnf" 1520289571 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.aux" 1524759190 4281 a479973d278dcafb01e4f60cbd75637c ""
+  "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.aux" 1524787900 5460 2a7b65d220e63285242737475a3fa332 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm" 1136768653 3072 ccae1a240ab272417e4399fe942df546 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -284,17 +284,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1520290162 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1520290198 3875097 241b4dffb534f745b99b5a8fe83c483d ""
-  "BD.aux" 1524759190 4281 a479973d278dcafb01e4f60cbd75637c ""
+  "BD.aux" 1524787900 5460 2a7b65d220e63285242737475a3fa332 ""
   "BD.bbl" 0 -1 0 "bibtex BD"
-  "BD.out" 1524759190 1189 f156bd3f8625f987f0d936caeb8ec6be ""
-  "BD.tex" 1524759172 35771 b20f135b0bb8f2109d8194630ab81b98 ""
-  "BD.toc" 1524759190 2482 97ee4263f7801cce713be5191dbc6472 ""
+  "BD.out" 1524787900 1858 6744ce224dac2b916fc1ec5d2224d859 ""
+  "BD.tex" 1524787889 38617 30c545506d59170441296ec5c5fa30a2 ""
+  "BD.toc" 1524787900 3463 efa90b9569b9bfd6be56a54faeebb543 ""
+  "SGBD.png" 1524785696 67195 da023884c683fb9470ba59883c3a6d9b ""
   (generated)
-  "BD.log"
-  "BD.toc"
-  "BD.aux"
-  "BD.pdf"
+  "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.pdf"
   "BD.thm"
+  "BD.pdf"
+  "BD.log"
+  "BD.aux"
   "BD.out"
   "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.log"
-  "/home/lalaandrea10/Documentos/BasesdeDatos/BDApuntes/BD.pdf"
+  "BD.toc"
