@@ -727,6 +727,9 @@
 		\item SDL Lenguaje de definición de almacenamiento.
 		\item VDL Lenguaje de definición de vistas.
 	\end{itemize}
+    \section{Aldunas cosas a tener en cuenta}
+    Crea primero todas las restricciones de llaves foraneas y primarias.
+    
 	\section{Algunas sentencias}
 
 	\emph{Show Databases;} Muestra las bases que tenemos.
@@ -777,6 +780,19 @@
 	\emph{Alter table \textbf{Nomtable} add constraint FKP Foreign Key (\textbf{NomDato}) references \textbf{Nomtable}(\textbf{NomDato}) on delete cascade on update cascade;} Ligar tablas. Modificamos la table una restriccion de llave foranea (cual) una referencia a tabla (Dato) y decimos que elimine en cascada y actualizacion tambian.
 
 	\emph{update NomTable set NomAtrib="P7" where NomAtrib="P3"}Modificarel valor de un dato ya contenido en la tabla en cascada en un tipo de atributo.
+
+    \subsection{Crear un respaldo de la BD}
+    \emph{Mysqldump } \textbf{--user=root} \text{--password=root} \emph{nombrebd}>Dir/archivo.sql
+    Donde dir es la direccion donde se guardará el archivo resultado.
+
+    \subsection{Crear un repado por un puerto diferente}
+    \emph{Mysqldump } \textbf{--user=root} \text{--P=3309} \emph{nombrebd}>Dir/archivo.sql
+    Donde -P es el puerto a escuchar.
+    \subsection{Crear una bd a partir de un respaldo}
+    \emph{Mysql} \textbf{--user=root} \text{--password=root} \emph{nombrebd}<Dir/archivo.sql
+    Donde -P es el puerto a escuchar.
+
+
 	\begin{appendices}
 	
 	
