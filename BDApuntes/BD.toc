@@ -41,5 +41,9 @@
 \contentsline {subsubsection}{Usuarios Finales}{9}{section*.18}
 \contentsline {chapter}{\numberline {2}SQL}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Algunas sentencias}{11}{section.2.2}
-\contentsline {chapter}{Appendices}{13}{section*.19}
+\contentsline {section}{\numberline {2.2}Aldunas cosas a tener en cuenta}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Algunas sentencias}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Crear un respaldo de la BD}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Crear un repado por un puerto diferente}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Crear una bd a partir de un respaldo}{13}{subsection.2.3.3}
+\contentsline {chapter}{Appendices}{14}{section*.19}

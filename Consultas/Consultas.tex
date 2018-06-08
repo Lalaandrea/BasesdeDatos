@@ -8,11 +8,11 @@
 % =======================================================
     
     % *********   HEADERS AND FOOTERS ********
-    \def\ProjectAuthorLink{https://github.com/SoyOscarRH}           %Just to keep it in line
+    \def\ProjectAuthorLink{https://github.com/CompilandoConocimiento}           %Just to keep it in line
     \def\ProjectNameLink{\ProjectAuthorLink/Proyect}                %Link to Proyect
 
     % *********   DOCUMENT ITSELF   **************
-    \documentclass[12pt, fleqn]{report}                             %Type of docuemtn and size of font and left eq
+    \documentclass[12pt, fleqn]{article}                             %Type of docuemtn and size of font and left eq
     \usepackage[spanish]{babel}                                     %Please use spanish
     \usepackage[utf8]{inputenc}                                     %Please use spanish - UFT
     \usepackage[margin = 1.2in]{geometry}                           %Margins and Geometry pacakge
@@ -21,7 +21,7 @@
     \usepackage{pdfpages}                                           %Create MetaData for a PDF and LINKS!
     \hypersetup{pageanchor = false}                                 %Solve 'double page 1' warnings in build
     \setlength{\parindent}{0pt}                                     %Eliminate ugly indentation
-    \author{Oscar Rosas, Laura Andres, Alan Ontiveros}              %Who I am
+    \author{Laura Andres}              %Who I am
 
     % *********   LANGUAJE    *****************
     \usepackage[T1]{fontenc}                                        %Please use spanish
@@ -74,10 +74,10 @@
         \ifthenelse{\isodd{\value{page}}}                           %IF ODD PAGE:
             {\href{https://compilandoconocimiento.com/nosotros/}    %DO THIS:
                 {\footnotesize                                      %Send the page
-                    {\textsc{Oscar Rosas, Laura Andres, Alan Ontiveros}}}}                 %Send the page
+                    {\textsc{Laura Andrea}}}}                 %Send the page
             {\href{https://compilandoconocimiento.com}              %ELSE DO THIS: 
                 {\footnotesize                                      %Send the author
-                    {\textsc{Practica 1}}}}            %Send the author
+                    {\textsc{Arquitectura}}}}            %Send the author
     }
     
     
@@ -334,6 +334,16 @@
     \definecolor{BlueGrey900MD}{HTML}{263238}                       %Use: Color :D        
 
     \definecolor{DeepPurpleMD}{HTML}{673AB7}                        %Use: Color :D
+            \definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}             %Lalita's colors
+        \definecolor{amaranth}{rgb}{0.9, 0.17, 0.31}
+        \definecolor{antiquefuchsia}{rgb}{0.57, 0.36, 0.51}
+        \definecolor{classicrose}{rgb}{0.98, 0.8, 0.91}
+        \definecolor{coralred}{rgb}{1.0, 0.25, 0.25}
+        \definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+        \definecolor{tealgreen}{rgb}{0.0, 0.51, 0.5}
+        \definecolor{CyanClair300}{HTML}{4DD0E1}
+        \definecolor{Grey700}{HTML}{616161}
+
 
     \newcommand{\Color}[2]{\textcolor{#1}{#2}}                      %Simple color environment
     \newenvironment{ColorText}[1]                                   %Use: \begin{ColorText}
@@ -362,11 +372,8 @@
  
     \lstset{style = CompilandoStyle}                                %Use this style
 
-    % =========================================
-    % =======   LALA THINGS ===================
-    % =========================================
 
-    %\pgfplotsset{compat=1.13}
+
 
 
 
@@ -391,8 +398,8 @@
 
 
 \addto\captionsspanish{%
-	\renewcommand\appendixname{Anexo}
-	\renewcommand\appendixpagename{Anexos}
+    \renewcommand\appendixname{Anexo}
+    \renewcommand\appendixpagename{Anexos}
 }
 \setlength{\headheight}{15pt} 
 \renewcommand{\footrulewidth}{0.5pt}
@@ -400,9 +407,9 @@
 
 
 
-\title{Práctica n: Título}
-\author{3CM3\\
-	ESCOM-IPN}
+\title{Arquitectura}
+\author{
+    ESCOM-IPN}
 
 
 
@@ -429,423 +436,166 @@
 
 
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%        LALA THINGS     %%%%%%%%%%%%%%%%%%%%%%%%%
+\pgfplotsset{compat=1.13}
+\usepackage{listings}
 
 
 
 
 \bibliographystyle{IEEEtran}
 \begin{document}
-    \lstset{inputencoding=utf8/latin1}
-	\begin{titlepage}
-		\begin{center}
-			
-			% Upper part of the page. The '~' is needed because \\
-			% only works if a paragraph has started.
-			
-			\noindent
-			%%\begin{minipage}{0.5\textwidth}
-			%%	\begin{flushleft} \large
-			%%		\includegraphics[width=0.3\textwidth]{../ipn.png}
-			%%	\end{flushleft}
-			%%\end{minipage}%
-			%%\begin{minipage}{0.55\textwidth}
-			%%	\begin{flushright} \large
-			%%		\includegraphics[width=0.7\textwidth]{../escom.png}
-			%%	\end{flushright}
-			%%\end{minipage}
-			
-			\textsc{\LARGE Instituto Politécnico Nacional}\\[0.5cm]
-			
-			\textsc{\Large Escuela Superior de Cómputo}\\[1cm]
-			
-			\textsc{\Large Redes Computacionales}\\[1cm]
-			
-			% Title
-			
-			{ \huge Práctica 1: Archivos de Ordenamiento\\[1cm] }
-			
-			{ \Large Grupo: 3CM3} \\[1cm]
+\begin{titlepage}
+    
+    % ============ TITLE PAGE STYLE  ================
+    \definecolor{TitlePageColor}{cmyk}{1,.60,0,.40}                 %Simple colors
+    \definecolor{ColorSubtext}{cmyk}{1,.50,0,.10}                   %Simple colors
+    \newgeometry{left=0.20\textwidth}                               %Defines an Offset
+    \pagecolor{amaranth}                                      %Make it this Color to page
+    \color{classicrose}                                                   %General things should be white
+
+    % ===== MAKE SOME SPACE =========
+    \vspace                                                         %Give some space
+    \baselineskip                                                   %But we need this to up command
+
+    % ============ NAME OF THE PROJECT  ============
+    \makebox[0pt][l]{\rule{1.3\textwidth}{3pt}}                     %Make a cool line
+    
+    \href{https://compilandoconocimiento.com}                       %Link to project
+    {\textbf{\textsc{\Huge ESCOM-IPN}}}\\[2.7cm]                    %Name of project   
+
+    % ============ NAME OF THE BOOK  ===============
+    \href{\ProjectNameLink/LibroRedes}                       %Link to Author
+    {\fontsize{36}{50}                                              %Size of the book
+        \selectfont \textbf{Consultas}}\\[0.5cm]       %Name of the book
+    {\fontsize{36}{50}                                              %Size of the book
+        \selectfont \textbf{Consultas}}\\[0.5cm]                %Name of the book
+    \textcolor{bittersweet}                                        %Color or the topic
+        {\textsc{\LARGE Bases de Datos}}     %Name of the general theme
+    
+    \vfill                                                          %Fill the space
+    
+    % ============ NAME OF THE AUTHOR  =============
+    \href{https://compilandoconocimiento.com/}                    %Link to Author
+    {\LARGE \textsf{Laura Andrea Morales López}}   %Author
+
+    % ===== MAKE SOME SPACE =========
+    \vspace                                                         %Give some space
+    \baselineskip                                                   %But we need this to up command
+    
+    {\large \textsf{Mayo 2018}}                                  %Date
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%   ABSTRACT    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   
+
+\end{titlepage}
 
 
-			
-            { \Large Equipo: CompilandoConocimiento.com} \\[1cm]
-			
-			\noindent
-			\begin{minipage}{0.5\textwidth}
-				\begin{flushleft} \large
-					\emph{Integrantes:}\\
-					Morales López Laura Andrea\\
-				\end{flushleft}
-			\end{minipage}%
-			\begin{minipage}{0.5\textwidth}
-				\begin{flushright} \large
-					\emph{Profesora:} \\
-					Nidia Cortez
-				\end{flushright}
-			\end{minipage}
-			
-			%%\begin{figure}[H]
-			%%    \centering
-			%%    \includegraphics[scale=0.06]{../foto.jpg}
-			%%\end{figure}
-			
-			\vfill
-		\end{center}
-	\end{titlepage}
-	\maketitle
-	
-	
-	
-    \clearpage
-    % =====================================================
-	% ========                INDICE              =========
-	% =====================================================
-	\tableofcontents{}
-	\label{sec:Index}
-
-	\clearpage
+% =====================================================
+% ==========      RESTORE TO DOCUMENT      ============
+% =====================================================
+\restoregeometry                                                    %Restores the geometry
+\nopagecolor                                                        %Use to restore the color to white
 
 
 
-    \chapter{Teoría}
-    \section{Definiciones}
 
-	    \subsection{Dato}
-	    	Representación gráfica con significado asignado.
-	    \subsection{Información}
-	    	Conjunto de datos ordenado.
-	    \subsection{Sistema}
-	    	Conjunto de elementos que se asocian para lograr un objetivo dentro de un entorno de cierto alcance.
-	    \subsection{Software}
-	    	Conjunto de programas con objetivo y estructura.
-	    \subsection{Base de datos}
-	    	\begin{itemize}
-	    		\item Representa aspectos del mundo real, a esto se le llama Mini Universo.
-	    		\item Datos almacenados que tienen un significado interesante.
-	    		\item Diseñar, manipular y construir.
-	    	\end{itemize}
+% =====================================================
+% ========                INDICE              =========
+% =====================================================
+\tableofcontents{}
+\label{sec:Index}
 
-	    	
-
-    \section{SGGD}
-    Es un programa para crear o manipular bases de datos. Algunos ejemplos son: MySQL, MariaDB, Server,Oracle,Informix, DB2,Sybasem MiniSQL,SQLite,Postgress, etc.
+\clearpage
+\section{Consulta 1}
+Obener un listado con los medios utilizados para registrarese sin que aparezcan valores duplicaos
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta1}
+                    \end{figure}
+\section{Consulta 2-a}
+Obtenga el DNI mas 4 de todos los clientes ¿Que nombre tiene la columna del resultado? \emph{(DNI+4)}
 
     
-    \subsection{Motor Evaluador de consultas}
-	    \subsubsection{El compilador}
-	    \begin{itemize}
-	    	\item Lexico
-	    	\item Sintáctico
-	    	\item Semántico (Congruencia)
-	    \end{itemize}
-	    \subsubsection{Optimizador de consultas}
-	    \begin{itemize}
-	    	\item Basada en costos:
-	    			\begin{itemize}
-	    				\item Para número de reuniones pequeños es aceptable, para números grandes es dificil de manipular.
-	    				\item Se pueden manipular en subconjuntos y calcular individualmente el mejor orden de reunión eliminando los más costosos de cada subconjunto.
-
-	    				Usando esta técnica se puede implementar el algoritmo de programación  dinámica para la optimización del orden de reunión óptimo.
-	    				\item Una desventaja es el costo de la misma optimización. El número de los planes de evaluación distintos para una consulta puede ser grande y encontrar el plan optimo lleva mucho trabajo de cómputo.
-	    			\end{itemize}
-	    	\item Heurística:
-	    	\begin{itemize}
-	    		\item Suele a ayudar a reducir costo.
-	    		\item "Realizar las operaciones de selección tan pronto como sea posible"
-	    		\item Se dice que la regla anterior es heurística porque ayuda a reducir el costo, aunque no lo haga siempre.
-	    		\item "Realizar las proyecciones tan pronto como sea posible"
-
-	    	\end{itemize}
-	    \end{itemize}
-    \subsection{Gestión de almacenamiento}
-    Depende del sistema operativo.
-    \begin{itemize}
-    	\item Archivos y métodos de acceso (Búsqueda)
-    	\item Administrador de página (Gestiona Caché y RAM)
-    	\item Administrador de espacio en disco (RW)
-    \end{itemize}
-
-    \subsection{Módulo de control de concurrencia ACID}
-    \begin{itemize}
-    	\item $A$ tomicidad: Se ejecuta todo o nada.
-    	\item $C$ onsistencia: Es el estado coherente de la información o datos que contiene y que se relacionan, en el cual la información cumple las necesidades o expectativas de quien la requiera.
-    	\item $I$ Aislamiento: Ejecutar transacciones independientes.
-    	\item $D$ urabilidad: Reflejar cambios de la transacción realizada.
-    \end{itemize}
-    \subsubsection{Administrador de almacenamiento}
-    Garantiza que las transacciones soliciten y liberen los bloqueos de acuerdo con el
-	correspondiente protocolo de bloqueo y programa la ejecución de las
-	transacciones.
-	\subsubsection{Administrador de bloqueos}
-	Realiza un seguimiento de las solicitudes de bloqueo y concede los bloqueos
-	sobre los objetos de la base de datos cuando quedan disponibles.
-
-
-    \subsection{Administración de tolerancia a fallos}
-    Responsable del mantenimiento de un registro y de la restauración del sistema a un estado consistente tras los fallos.
-
-
-			\begin{figure}[H]
-			    \centering
-			    \includegraphics[scale=.7]{SGBD.png}
-			\end{figure}
-		
-\section{Clasificación de los SGBD}
-	\subsection{Modelo de datos}
-	Modelo: Es una respresentación de la realidad que contiene características generales de algo que se va a realizar.
-
-	Modelo de Datos: Conjunto de conceptos que pueden servir para describir la estructura de la Base de Datos. La estructura esta formada por: Datos, Tipo de datos, Vinculos, Restricciones, y puede incluir un conjunto de operaciones para especificar lecturas y actualizaciones.
-
-	Por ejemplo: Jerarquico, Relacional, Red, Orientado a Objetos, Entidad-Relación.
-	\subsection{Número de Usuarios}
-	\begin{itemize}
-		\item Monousuario
-		\item Multiusuario
-	\end{itemize}
-	\subsection{Proposito}
-	\begin{itemize}
-		\item Específico
-		\item General
-	\end{itemize}
-	\subsection{Costos}
-	\begin{itemize}
-		\item Gratis
-		\item Licencia
-	\end{itemize}
-	\subsection{Número de sitios}
-	\begin{itemize}
-		\item Centralizado
-		\item Distribuido: En varios servidores para evitar fallos.
-		\begin{itemize}
-			\item Homogeneo: Los servicios son del mismo control
-			\item Heterogeneo: Interfaces de comunicación
-		\end{itemize}
-	\end{itemize}
-\section{Clasificación de Modelo de Datos}
-\begin{itemize}
-	\item Alto nivel/Conceptual Tiene conceptos muy cercano al modo en que el usuario percibe los datos.
-	\item Representación/Implementación Sus conceptos pueden ser entendidos  por los usuarios finales aunque no estan alejados de la forma en que estan organizados en la Base de Datos.
-	\item Bajo nivel/Fisico Describe los detalles de como se almacenan los datos.
-\end{itemize}
-
-\section{Elementos de un Modelo de Datos}
-\begin{itemize}
-	\item Entidad: Representa un objeto del mundo Real
-	\item Atributo: Característica que permite descubrir una entidad.
-	\item Vinculo: Describe una interacción entre dos entidades.
-	\item Esquema de la Base de Datos: Descripción de la estructura de la Base de Datos.
-	\item Diagrama del esquema de la Base de Datos: Representación gráfica del esquema de la base de datos.
-	\item Estado de la Base de Datos: Datos en determinado tiempo.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-    Administrador de transacciones(estrategia de ejecuación)
-
-    Administrador de bloqueos (Granularidad)
-
-    Bitácora.
-
-
-
-
-
-
-    \subsection{Arquitectura de un SGBD}
-
-		\subsubsection{Tipos de usuarios}
-		\begin{itemize}
-			\item Usuarios no sofisticados: 
-			\item Usuarios sofsticados:
-		\end{itemize}
-		\subsubsection{Formas Web}
-		\subsubsection{Aplicaciónes front-end}
-		\subsubsection{Intefaces SQL}
-
-	\subsection{SQL Lenguaje Estructurado de Consultas}
-
-		\subsubsection{Bloque 1}
-		\begin{itemize}
-			\item Administrador de transacciones
-			\item Administrador de bloques
-		\end{itemize}
-
-		\subsubsection{Bloque 2}
-		\begin{itemize}
-			\item Ejecutor del Plan
-			\item PARSER
-			\item Evaluador de Operaciones
-			\item OPTIMIZADOR
-		\end{itemize}
-
-		\subsubsection{Bloque 3}
-		\begin{itemize}
-			\item Archivos y métodos de acceso
-			\item Administrador de páginas
-			\item Administrador de Espacio en disco
-		\end{itemize}
-
-		\subsubsection{Bloque 4}
-		\begin{itemize}
-			\item Administrador de Recuperación
-			
-		\end{itemize}
-
-		\subsubsection{Bloque 5 Base}
-
-		Catalogo de Sistema
-		\begin{itemize}
-			\item Archivo de datos.
-			\item Archivos de indices.
-		\end{itemize}
-
-		%%Imagen
-
-
-	\subsection{Personas involucradas en un SBD}
-
-		\subsubsection{Administrador de Base de Datos}
-		\subsubsection{Diseñador de BD}
-		\subsubsection{Analistas de Sistemas-Programadores}
-		\subsubsection{Usuarios Finales}
-		\begin{itemize}
-			\item Ususarios Esporádicos
-			\item Usuarios paramétricos/Simples
-			\item Usuarios Autónomos
-			\item Usuarios Avanzados
-		\end{itemize}
-\chapter{SQL}
-	\section{Introducción}
-	Es un sublenuaje formado por:
-	\begin{itemize}
-		\item DDL Lenguaje de definición de datos.
-		\item DML Lenguaje de manejo de datos
-		\item CTL Lenguaje de control de transacciones.
-		\item SDL Lenguaje de definición de almacenamiento.
-		\item VDL Lenguaje de definición de vistas.
-	\end{itemize}
-    \section{Aldunas cosas a tener en cuenta}
-    Crea primero todas las restricciones de llaves foraneas y primarias.
-    
-	\section{Algunas sentencias}
-
-	\emph{Show Databases;} Muestra las bases que tenemos.
-
-
-	\emph{drop database \textbf{NomBD};} Elimina una base de datos.
-
-	\emph{create database \textbf{NomBD};} Crea una base de datos.
-
-	\emph{use \textbf{NomBD};} Entra a la base de datos.
-
-	\emph{Show tables}Muestra las tables en mi base de datos.
- 
-	\emph{Create table \textbf{Nomtable}(Atributos);} Crear una tabla donde atributo tiene nombre de variable, tipo y restricción.
-
-	\emph{describe \textbf{Nomtable};} Muestra la tabla.
-
-	\emph{show create table \textbf{Nomtable};} Describe la manera de creacion de la tabla.
-
-	\emph{Alter table \textbf{Nomtable} add constraint PK Primary Key (idP);} Modificar una tabla y agrega restricción llamada Pk(unico) con su tipo Primary key Nombre del atributo.
-
-	\emph{Alter table \textbf{Nomtable} add constraint FKP Foreign Key (\textbf{NomDato}) references \textbf{Nomtable}(\textbf{NomDato});}Ligar tablas. Modificamos la table una restriccion de llave foranea (cual) una referencia a tabla (Dato)
-
-
-	\emph{Insert into \textbf{NomTable}(Atributos) values(Valores Atributos);} Inserta valores en una tabla respecto a su posición.
-
-	\emph{Select * From \textbf{NomTable};} Muestra una tabla.
-
-	\emph{alter table NomTable add column NomDato type null;}Agregar una columna
-
-	\emph{alter table NomTable modify NomDato TypetoChange null;} Modificar el tipo de dato de una columna.
-
-	\emph{alter table NomTable change NomDato NewName Type null;} Cambiar Nombre de dato;
-
-	\emph{alter table NomTable drop column NomDato;} Eliminar una columna de una tabla.
-
-	\emph{Delete from nombre;} Eliminar tabla;
-
-
-	\emph{Delete from NomTable where IdP="P3";} Eliminar un dato.
-
-
-	\emph{alter table NomTable drop Foreign Key nombreConstraint;}
-
-	\emph{Delete from NomTable where IdP="P2"} Borra en cascada, si en la tabla original se desea eliminar entonces en la dependiente tambien se elimina
-
-
-	\emph{Alter table \textbf{Nomtable} add constraint FKP Foreign Key (\textbf{NomDato}) references \textbf{Nomtable}(\textbf{NomDato}) on delete cascade on update cascade;} Ligar tablas. Modificamos la table una restriccion de llave foranea (cual) una referencia a tabla (Dato) y decimos que elimine en cascada y actualizacion tambian.
-
-	\emph{update NomTable set NomAtrib="P7" where NomAtrib="P3"}Modificarel valor de un dato ya contenido en la tabla en cascada en un tipo de atributo.
-
-
-	   \emph{Select * from \textbf{NomTable} order by \textbf{NomAtrib} ASC;} Debe ir al final de la sentencia y ASC es orden ascendente aunque este esta por default
-
-    \emph{Select * from \textbf{NomTable} order by \textbf{NomAtrib} desc;} Debe ir al final de la sentencia y desc es orden descendente
-
-        \emph{Select * from \textbf{NomTable} order by \textbf{NomAtrib1} desc, \textbf{NomAtrib2} asc;} Ordena primero por Atrib1 y despues por Atrib2
-
-    \emph{Select distinct  \textbf{NomAtrib} from \textbf{Nomtable};} Elimina duplicados.
-
-    \emph{Select * from \textbf{NomTable},(\emph{Select * from \textbf{NomTable}}) A;} Regresa un producto cruz  y se crea una relación A que es la parte donde esta el parentesis, no se guarda fisicamente..-
-       /'-')/  9'-')9 6(.-.6  \('-'\
-
-
-      \emph{Select count(\textbf{NomAtrib}) from \textbf{NomTable};} Cuenta tuplas sin contar nulls.
-
-
-      \emph{Select sum(\textbf{NomAtrib}) from \textbf{NomTable};} Suma.
-
-      \emph{Select avg(\textbf{NomAtrib}) from \textbf{NomTable};} Promedio.
-
-      \emph{Select min(\textbf{NomAtrib}) from \textbf{NomTable};} Valor minimo. En alfanuméricos es por orden de alfabeto.
-
-      \emph{Select max(\textbf{NomAtrib}) from \textbf{NomTable};} Valor maximo. En alfanuméricos es por orden de alfabeto.
-
-
-      Suma y promedio solo para datos numericos.
-      max min y contador para alfanumericos
-
-      \emph{Select (\textbf{NomAtrib}) from \textbf{NomTable} group by \textbf{NomAtrib2};} Agrupar por atrib2
-
-    \subsection{Crear un respaldo de la BD}
-    \emph{Mysqldump } \textbf{- -user=root} \text{- -password=root} \emph{nombrebd}>Dir/archivo.sql
-    Donde dir es la direccion donde se guardará el archivo resultado.
-
-    \subsection{Crear un repado por un puerto diferente}
-    \emph{Mysqldump } \textbf{- -user=root} \text{-P 3309} \emph{nombrebd}>Dir/archivo.sql
-    Donde -P es el puerto a escuchar.
-    \subsection{Crear una bd a partir de un respaldo}
-    \emph{Mysql} \textbf{- -user=root} \text{- -password=root}  \text{-P 3309} \emph{nombrebd}<Dir/archivo.sql
-
-
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta2-a}
+                    \end{figure}
+\section{Consulta 2-b}  
+Cambialo por NUEVO DNI                  
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta2-b}
+                    \end{figure}
+\section{Consulta 3}
+Se requiere saber que clientes tienen más de 30 años. Ordene el resultado de forma decendente
     
 
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta3}
+                    \end{figure}
+\section{Consulta 4}
+Mostrar los datos de los clientes cuya edad es menor que 30 y mayor que 50
+    
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta4}
+                    \end{figure}
+\section{Consulta 5}
+Listar los programas cuyo nombre empiezan por 'Ac'
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta5}
+                    \end{figure}
 
-    mysql --user=root --password=root Parejas2<BD2CM1/archivo.sql
-    mysqldump --user=root --password=root Parejas>'BD2CM1/archivo.sql'
+\section{Consulta 6}    
+Listar los nombres de los clientes cuyo nombre contenga alguna 'o'
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta6}
+                    \end{figure}
+\section{Consulta 7}
+Obtenga un listado con los códigos de las distintas versiones de Windows
+    
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta7}
+                    \end{figure}
+\section{Consulta 8}
+¿En que ciudades comercializa programas El Corte Ingles' El resultado debe estar en mayusculas.
+    
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta8}
+                    \end{figure}
+\section{Consulta 9}
+¿Nombre y edad del usuario más joven de oracle?
+\clearpage
+    
+                 \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta9}
+                    \end{figure}
+                    
+\section{Consulta 10}
+Genere unaa lista con el numero de programas que ha desrrolado casa fabricante
+                     \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta10}
+                    \end{figure}
+\section{Consulta 11}
+Obtenga un listado con el número total de registros que se han realizado para cada programa, siempre que dicho numero sea mayor que 1.
+                     \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.6\textwidth]{Consulta11}
+                    \end{figure}
 
-
-
-     mysqldump --user=Lalaandrea10 --password=root Parejas>BD2CM1/archivo.sql
-
-
-     select nombre as Name from profesor; Alias de nombre es name;
-
-     select (edad+20)x10 as operacion from profesor; Crea una tabla llamada (edad+20)x10 y la renombra como operación
-
-
-
-
-	\begin{appendices}
-	
-	
-	\end{appendices}
-	
-    \bibliography{../referencias.bib}
+    
 	
 \end{document}
-	

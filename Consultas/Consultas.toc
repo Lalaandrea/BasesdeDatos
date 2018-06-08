@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Consulta 1}{2}{section.1}
+\contentsline {section}{\numberline {2}Consulta 2-a}{2}{section.2}
+\contentsline {section}{\numberline {3}Consulta 2-b}{2}{section.3}
+\contentsline {section}{\numberline {4}Consulta 3}{3}{section.4}
+\contentsline {section}{\numberline {5}Consulta 4}{3}{section.5}
+\contentsline {section}{\numberline {6}Consulta 5}{3}{section.6}
+\contentsline {section}{\numberline {7}Consulta 6}{3}{section.7}
+\contentsline {section}{\numberline {8}Consulta 7}{4}{section.8}
+\contentsline {section}{\numberline {9}Consulta 8}{4}{section.9}
+\contentsline {section}{\numberline {10}Consulta 9}{4}{section.10}
+\contentsline {section}{\numberline {11}Consulta 10}{5}{section.11}
+\contentsline {section}{\numberline {12}Consulta 11}{5}{section.12}
