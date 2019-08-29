@@ -717,6 +717,109 @@
 			\item Usuarios Autónomos
 			\item Usuarios Avanzados
 		\end{itemize}
+
+    \section{Normalización}
+    \subsection{Que es?}
+
+    "Es el proceso de eliminación de redundancias en una tabla para que sea más fácil"
+    \subsection{Descripcion}
+    Tenemos que tener una relación bien estructurada, osea que contenga el minimo de redundancia y permita a los usuarios insertar, modificar y borrar registros en una tabla sin errores o inconsistencias.
+
+    Ademas debemos de evitar los 3 tipos de anomalías: Anomalías de inserción, anomalías en eliminación y anomalías en actualización.
+
+    Aqui es donde entra la normalización, el cual es un proceso formal ara decidir que atributos deberían ser agrupados en una relación, es el proceso de descomponer relaciones con anomalías para producir relaciones pequeñas y bien estructuradas.
+    \subsection{Dependencias Funcionales}
+    Es una restricción entre dos conjuntos de atributos de
+la base de datos.
+Una dependencia funcional, denotada por $X \rightarrow Y$, entre dos conjuntos de
+atributos X e Y que son subconjuntos de R, especifica una restricción sobre las
+posibles tuplas que podrán formar un estado de relación r de R.
+
+
+La restricción dice que, para dos tuplas cualesquiera t 1 y t 2 , de r tales que t 1 [X] =
+t 2 [X], debemos tener también t 1 [Y] = t 2 [Y]. Esto significa que los valores del
+componente Y de una tupla r dependen de los valores del componente X, o están
+determinados por ellos; o bien, que los valores del componente X de una tupla
+determinan la manera única (o funcionalmente) los valores del componente Y.
+    \subsection{Forma Normal}
+    Es un estado de una relación que resulta de aplicar simples
+reglas tomando en cuenta la dependencia funcional (o relaciones entre los
+atributos) de una relación.
+
+
+    \begin{itemize}
+        \item 1. Primera Forma Normal.(Redundancia y Atributos atómicos)
+Cualquier atributo multivalor (también llamado grupo repetitivo) tiene que ser
+eliminado.
+
+Eliminar redundancia y convertir los
+atributos complejos en atributos atómicos, o no descomponibles.
+
+
+\item 2. Segunda Forma Normal(Los atributos solo depende de una clave).
+Cualquier dependendencia funcional parcial tienen que ser eliminadas, es decir,
+los atributos no claves son identificados por la llave primaria.
+
+Un esquema de relación R está en 2FN si todo atributo no primo A en R depende
+funcionalmente de manera total de la clave primaria de R.
+
+Se le puede “normalizar en 2FN"
+dando lugar a varias relaciones 2FN en las que los atributos no primos estén
+asociados sólo a la parte de la clave primaria de la que dependen funcionalmente de manera total.
+
+
+\item 3. Tercera Forma Normal(Atributos no llave no dependen de atributos no llave).
+Cualquier dependendencia funcional parcial tienen que ser eliminadas, es decir,
+los atributos no claves son identificados por la llave primaria.
+
+Se elimina las dependencias transitivas; es decir atributos no clave no
+dependen de otros atributos no clave.
+\item 4. Boyce/Codd Forma Normal(Claves no dependan de atributos no cklave).
+Cualquier anomalía resultante de dependendencias funcionales tienen que ser
+eliminadas.
+
+Un atributo clave  es funcionalmente dependiente de un atributo no clave.
+
+“Una relación R está en la FNBC si y sólo si cada determinante es una llave
+candidata".
+
+La relación es modificada de tal manera que el determinante de la relación que
+no es una llave candidata llega ser un componente de la llave primaria de la
+relación revisada. El atributo que es funcionalmente dependiente en el
+determinante llega a ser un atributo no clave. Esto es válido por la dependencia
+funcional
+\item 5. Cuarta Forma Normal.
+Cualquier dependendencia multivaluada tienen que ser eliminadas.
+\item 6. Quinta Forma Normal.
+Cualquier dependendencia de junta o de proyección tienen que ser eliminadas.
+    \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \chapter{SQL}
 	\section{Introducción}
 	Es un sublenuaje formado por:
@@ -790,8 +893,7 @@
 
     \emph{Select distinct  \textbf{NomAtrib} from \textbf{Nomtable};} Elimina duplicados.
 
-    \emph{Select * from \textbf{NomTable},(\emph{Select * from \textbf{NomTable}}) A;} Regresa un producto cruz  y se crea una relación A que es la parte donde esta el parentesis, no se guarda fisicamente..-
-       /'-')/  9'-')9 6(.-.6  \('-'\
+    \emph{Select * from \textbf{NomTable},(\emph{Select * from \textbf{NomTable}}) A;} Regresa un producto cruz  y se crea una relación A que es la parte donde esta el parentesis, no se guarda fisicamente..
 
 
       \emph{Select count(\textbf{NomAtrib}) from \textbf{NomTable};} Cuenta tuplas sin contar nulls.
